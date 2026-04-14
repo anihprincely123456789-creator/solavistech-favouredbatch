@@ -15,7 +15,7 @@ ls
    16  chmod 600 ~/.ssh/id_rsa
    17  ls
    18  cat id_rsa.pub 
-   19  echo "public ssh key" >> ~/.ssh/authorized_keys
+   19  echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC6QffymrZjkvezIMHUtFZ8xh5ru5a4awRiW7tCcidupY6FihY9bNjKnfN/UxXByejxrOoxiNXjsEXTwQgRA3TPyJ8agaAMApnAPmiVibFq3RK8zhS2m1YKJL4p4zOn0LSauhvwoeK+Nq9ME3pcs1lwdVe9IHglEx0KIUj8GK51WcQkWg9lNx9snQQxXE/omqVweYshaGFZmMv6mOFOjKSM6ZNg2IZrvoRDYizBOrITnTbPlO/PfaMXq2hLsOJuhuDmniPGGKSjlqPNKLo6jpvwNLW7PxWIk+BVzWLXQp7mFZgEdFQFO9kln7QSPv9pqvQ5ThCgkr5DWKWmnmrpJiTGwfghD829MwjG9HJv94vMWhLo9VcT3Wsdh9IJXByzl35UOE5DHwU9y4tSdQKF61gl35svp5O4RcZ6lfWm93Ehfxd+RpPc+2k7/sTm2WPS4Ff+x3KTJnxkdlRcYBz4CzfryIO3lYJZCYbSmlf8RZHeGmRD+dZLod7aM84RLFYNmKYF3S2QC8L7MeAwu4qlRkkI4dNjvG5/s9Ud5GeimIkkNB+WDQGUw4H02Zgt6FMwzggUt1k1ck56og5pIq8oZ40tYdAX4fOh2QRurHwR3melUHPZt/FUWyTwu0ZtrFDh8J3Md7g+KNmM/QF4Ot19nUxVWRx8UXe4WzepV2lB8WiNCQ== github-actions-key" >> ~/.ssh/authorized_keys
    20  chmod 600 ~/.ssh/authorized_keys
    21  cat authorized_keys 
    22  clear
